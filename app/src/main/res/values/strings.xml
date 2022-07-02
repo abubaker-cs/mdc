@@ -3,35 +3,35 @@
 
     <!-- Footwear Type-->
     <string-array name="shoe_footwear">
+        <item>Boots</item>
+        <item>Exotics</item>
+        <item>Extra Large Shoes</item>
+        <item>Formal Shoes</item>
         <item>Lace-Ups/Oxfords</item>
         <item>Loafers and Drivers</item>
         <item>Monkstraps</item>
-        <item>Suede</item>
-        <item>Exotics</item>
-        <item>Formal Shoes</item>
-        <item>Boots</item>
         <item>Sandals</item>
         <item>Sneakers</item>
-        <item>Extra Large Shoes</item>
+        <item>Suede</item>
     </string-array>
 
     <!-- Brand Name -->
     <string-array name="shoe_designer">
-        <item>Jean Pierre</item>
-        <item>Corrente</item>
-        <item>Pelle Exotics</item>
-        <item>Carrucci</item>
-        <item>Ugo Vasare</item>
-        <item>Mezlan</item>
         <item>Bacco Bucci</item>
-        <item>Maurice</item>
-        <item>Toscana</item>
+        <item>C &amp; E Label</item>
+        <item>Carrucci</item>
+        <item>Coly</item>
+        <item>Corrente</item>
         <item>Dogen</item>
         <item>Frye</item>
-        <item>Johnston &amp; Murphy</item>
-        <item>C &amp; E Label</item>
         <item>Goodoo Sneakers</item>
-        <item>Coly</item>
+        <item>Jean Pierre</item>
+        <item>Johnston &amp; Murphy</item>
+        <item>Maurice</item>
+        <item>Mezlan</item>
+        <item>Pelle Exotics</item>
+        <item>Toscana</item>
+        <item>Ugo Vasare</item>
     </string-array>
 
     <!-- Color -->
@@ -43,15 +43,14 @@
         <item>Burgundy</item>
         <item>Camel</item>
         <item>Cognac</item>
-        <item>DarkBrown</item>
-        <item>Dark-Brown</item>
+        <item>Dark Brown</item>
         <item>Green</item>
         <item>Grey</item>
         <item>Jeans</item>
         <item>Mahogany</item>
         <item>Navy</item>
-        <item>Sport</item>
         <item>Sport-Rust</item>
+        <item>Sport</item>
         <item>Tabaco</item>
         <item>Tan</item>
         <item>Taupe</item>
