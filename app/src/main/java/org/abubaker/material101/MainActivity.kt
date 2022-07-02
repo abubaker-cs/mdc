@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             // Log.e("Submit", binding.autoCompleteTextView.text.toString())
             Toast.makeText(
                 this,
-                "Designer: " + binding.tvShoeDesigner.text + "\nColor: " + binding.tvShoeColor.text + "\nSize: " + binding.tvShoeSize.text,
+                "Footwear Type: " + binding.tvShoeFootwear.text + "\nDesigner: " + binding.tvShoeDesigner.text + "\nColor: " + binding.tvShoeColor.text + "\nSize: " + binding.tvShoeSize.text,
                 Toast.LENGTH_SHORT
             ).show()
         }
@@ -31,6 +31,11 @@ class MainActivity : AppCompatActivity() {
     // Safeguard
     override fun onResume() {
         super.onResume()
+
+        // Footwear
+        val footwear = resources.getStringArray(R.array.shoe_footwear)
+        val arrayAdapterFootwear = ArrayAdapter(this, R.layout.dropdown_item, footwear)
+        binding.tvShoeFootwear.setAdapter(arrayAdapterFootwear)
 
         // Designer
         val designer = resources.getStringArray(R.array.shoe_designer)

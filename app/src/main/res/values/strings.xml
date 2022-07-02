@@ -1,6 +1,20 @@
 <resources>
     <string name="app_name">Material 101</string>
 
+    <!-- Footwear Type-->
+    <string-array name="shoe_footwear">
+        <item>Lace-Ups/Oxfords</item>
+        <item>Loafers and Drivers</item>
+        <item>Monkstraps</item>
+        <item>Suede</item>
+        <item>Exotics</item>
+        <item>Formal Shoes</item>
+        <item>Boots</item>
+        <item>Sandals</item>
+        <item>Sneakers</item>
+        <item>Extra Large Shoes</item>
+    </string-array>
+
     <!-- Brand Name -->
     <string-array name="shoe_designer">
         <item>Jean Pierre</item>
